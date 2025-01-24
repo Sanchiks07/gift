@@ -74,7 +74,7 @@ body {
     border-radius: 7px;
     backface-visibility: hidden;
     transition: transform 0.25s linear;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);;
+    box-shadow: 0 3px 10px rgb(0,0,0,0.1);;
 }
 
 .card .front-view span{
