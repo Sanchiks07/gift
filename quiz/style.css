@@ -13,7 +13,7 @@ body {
 }
 
 .config-container {
-    display: none;
+    display: flex;
     width: 415px;
     padding: 23px;
     text-align: center;
