@@ -12,8 +12,14 @@ body {
     background: #5145BA
 }
 
+:where(.config-container, .quiz-container) {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.13);
+}
+
 .config-container {
-    display: flex;
+    display: none;
     width: 415px;
     padding: 23px;
     text-align: center;
@@ -75,11 +81,11 @@ body {
     flex: 1 1 10%;
 }
 
-.config-container .start-quiz-btn {
+.config-container .start-quiz-btn,
+.quiz-footer .next-question-btn {
     color: #fff;
     border: none;
     cursor: pointer;
-    margin-top: 30px;
     font-weight: 500;
     background: #5145BA;
     padding: 13px 25px;
@@ -88,6 +94,90 @@ body {
     transition: background 0.3s ease;
 }
 
-.config-container .start-quiz-btn:hover {
+.config-container .start-quiz-btn {
+    margin-top: 30px;
+}
+
+.config-container .start-quiz-btn:hover,
+.quiz-footer .next-question-btn:hover {
     background: #403795;
+}
+
+.quiz-container {
+    width: 480px;
+}
+
+.quiz-container .quiz-header {
+    display: flex;
+    align-items: center;
+    padding: 14px 25px;
+    justify-content: space-between;
+    box-shadow: 0 3px 6px rgb(0, 0, 0, 0.09);
+}
+
+.quiz-header .quiz-timer {
+    display: flex;
+    width: 70px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+    padding: 7px 9px;
+    border-radius: 6px;
+    background: #32313C;
+}
+
+.quiz-header .quiz-timer span {
+    font-size: 1.4rem;
+}
+
+.quiz-container .quiz-content {
+    padding: 20px 25px 25px;
+}
+
+.quiz-content .question-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.quiz-content .answer-options {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.quiz-content .answer-option {
+    padding: 13px 16px;
+    background: #F3F1FF;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #B5ACFF;
+    transition: 0.3s ease;
+}
+
+.quiz-container .quiz-footer {
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #c6c6c6c6;
+}
+
+.quiz-footer .quiz-status {
+    font-weight: 500;
+}
+
+.quiz-footer .question-status b {
+    font-weight: 600;
+}
+
+.quiz-footer .next-quistion-btn {
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+    padding: 9px 17px;
 }

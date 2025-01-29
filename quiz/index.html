@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love Quiz</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
@@ -41,10 +42,42 @@
         <header class="quiz-header">
             <h2 class="quiz-title">Leonijas Quiz</h2>
             <div class="quiz-timer">
-                <img src="timer.png" alt="timer" height="25px" width="auto">
+                <span class="material-symbols-outlined">timer</span>
                 <p class="time-duration">60s</p>
             </div>
         </header>
+
+        <div class="quiz-content">
+            <h1 class="question-text">
+                Kad mēs sagājām kopā?
+            </h1>
+            <ul class="answer-options">
+                <li class="answer-option">
+                    <p>14.februārī</p>
+                    <span class="material-symbols-outlined">cancel</span>
+                </li>
+                <li class="answer-option">
+                    <p>20.oktorbrī</p>
+                    <span class="material-symbols-outlined">check_circle</span>
+                </li>
+                <li class="answer-option">
+                    <p>7.maijā</p>
+                    <span class="material-symbols-outlined">cancel</span>
+                </li>
+                <li class="answer-option">
+                    <p>20.septembrī</p>
+                    <span class="material-symbols-outlined">cancel</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="quiz-footer">
+            <p class="quistion-status"><b>2</b> of <b>15</b> Questions</p>
+            <button class="next-question-btn">
+                Next
+                <span class="material-symbols-outlined">arrow_right_alt</span>
+            </button>
+        </div>
     </div>
 </body>
 </html>
