@@ -4,19 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love Mini Games</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <p>Uztaisi mājas lapu kurs ietver:</p>
     <ul>
-        <li>preview par spēli + poga uz spēli</li>
         <li>apraksts par mums?</li>
         <li>kpc es izdomāju šo uztaisīt</li>
     </ul>
 
     <p><string>PABEIGT LĪDZ VALENTĪNDIENAI!!</string></p>
 
-    <button><a href="memory-game/index.html">Atmiņas spēle</a></button><br>
-    <button><a href="quiz/index.html">Leonijas Quiz</a></button>
-    <button onclick="window.location.href='https://crosswordlabs.com/view/good-luck-297';">crossword</button>
+    <div class="cards-container">
+        <div class="card">
+            <img src="memory_game.png" alt="preview">
+            <div class="container">
+                <h4><b>Atmiņas Spēle</b></h4>
+                <button><a href="memory-game/index.html">Spēlēt</a></button> 
+          </div>
+        </div>
+        <div class="card">
+            <img src="" alt="preview">
+            <div class="container">
+                <h4><b>Leonijas Quiz</b></h4>
+                <button><a href="quiz/index.html">Pildīt</a></button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="crossword.png" alt="preview">
+            <div class="container">
+                <h4><b>Crossword</b></h4>
+                <button onclick="window.location.href='https://crosswordlabs.com/view/good-luck-297';">Pildīt</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
