@@ -161,18 +161,18 @@ const questions = [
     category: "future plans",
     questions: [
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Cik bērnus es gribētu adoptēt?",
+        options: ["3", "1", "2", "4"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
-        correctAnswer: 1,
+        question: "Kāda būs mūsu nākotnes māja?",
+        options: ["modern", "cottage", "cabin", "mansion"],
+        correctAnswer: 2,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Cik mājdzīvnieki mums būs?",
+        options: ["4 kaķi", "2 suņi", "2 kaķi + 4 suņi", "5 kaķi + 3 suņi"],
         correctAnswer: 1,
       },
       {
@@ -337,8 +337,8 @@ const questions = [
         correctAnswer: 1,
       },
       {
-        question: "Cik bērnus es gribu adoptēt?",
-        options: ["3", "4", "1", "2"],
+        question: "?",
+        options: ["", "", "", ""],
         correctAnswer: 1,
       },
       {
@@ -357,43 +357,43 @@ const questions = [
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kas ir manas lielākās bailes?",
+        options: ["tumsa", "zirnekļi", "augstums", "man nav"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kāds ir mans mīļākais komforta ēdiens?",
+        options: ["šokolāde", "saldējums", "medus kūka", "cepumi"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kāda būtu mana pēdējā maltīte?",
+        options: ["saldējums", "šokolādes kūka", "omes taisīta maltīte", ""],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Ja es varētu kaut ko mainīt savā izskatā, kas tas būtu?",
+        options: ["seju", "vēderu", "rokas", "visu izņemot acis"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kura ir mana mīļākā šokolāde?",
+        options: ["tumšā", "baltā", "piena", "all of the above"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Vai es gribu adoptēt bērnus vai dzemdēt?",
+        options: ["dzemdēt", "adoptēt", "abus", "es negribu bērnus"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Kura ir mana mīļākā grāmata(triloģija, duoloģija)?",
+        options: ["Butcher & Blackbird", "Fifty Shades of Gray", "A Good Girl's Guide To Murder", "Kepler62"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
-        correctAnswer: 1,
-      },
-      {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kurš ir mans mīļākais gada laiks?",
+        options: ["rudens", "ziema", "pavasaris", "vasara"],
         correctAnswer: 1,
       },
       {
@@ -474,27 +474,27 @@ const questions = [
     questions: [
       {
         question: "Mother will be happy about this...",
-        options: ["*burp*", "", "", ""],
+        options: ["*burp*", "*slap to the face*", "*noliek pulksteni uz sienas*", "*paskatās uz māti un pasmaida*"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "kotletes AKA ...",
+        options: ["kartupeļi", "karotes", "putra", "dakšas"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "birds AKA ...",
+        options: ["birbs", "", "boobies", ""],
+        correctAnswer: 2,
+      },
+      {
+        question: "pīles AKA ...",
+        options: ["putni", "kaķi", "lāči", "zivis"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
-        correctAnswer: 1,
-      },
-      {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "zivis AKA ...",
+        options: ["pīles", "suņi", "zivis", "jūrascūciņas"],
         correctAnswer: 1,
       },
       {
