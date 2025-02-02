@@ -6,7 +6,7 @@
     <title>Love Quiz</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
 </head>
 <body>
     <!-- kategoriju container -->
@@ -54,19 +54,17 @@
             <ul class="answer-options">
                 <li class="answer-option">
                     <p>14.februārī</p>
-                    <span class="material-symbols-outlined">cancel</span>
                 </li>
-                <li class="answer-option">
+                <li class="answer-option correct">
                     <p>20.oktorbrī</p>
                     <span class="material-symbols-outlined">check_circle</span>
                 </li>
-                <li class="answer-option">
+                <li class="answer-option incorrect">
                     <p>7.maijā</p>
                     <span class="material-symbols-outlined">cancel</span>
                 </li>
                 <li class="answer-option">
                     <p>20.septembrī</p>
-                    <span class="material-symbols-outlined">cancel</span>
                 </li>
             </ul>
         </div>
@@ -79,5 +77,17 @@
             </button>
         </div>
     </div>
+
+
+    <!-- rezultātu container -->
+    <div class="result-container">
+        <img src="quiz-over.png" class="result-img">
+        <h2 class="result-title">Quiz Completed!</h2>
+        <p class="result-message">You answered <b>5</b> out of <b>10</b> questions correctly. Good job my love!</p>
+        <button class="try-again-btn">Try Again</button>
+    </div>
+    
+    <script src="javascript/questions.js"></script>
+    <script src="javascript/script.js"></script>
 </body>
 </html>
