@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ff6f91;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+canvas {
+    border: 5px solid #ff426e;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 10px 20px rgba(255, 0, 102, 0.2);
+}
+
+button {
+    background-color: #e7476d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+button:hover {
+    background-color: #ff8ba0;
+    color: #e63946;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}

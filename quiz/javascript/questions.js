@@ -337,8 +337,8 @@ const questions = [
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kas ir mans bērnības sapnis, kuru es vēlos piepildīt līdz šai dienai?",
+        options: ["apceļot pasauli", "iemācīties dejot/dziedāt", "kļūt par slavenību", "iemācīties visas iespējamās valodas"],
         correctAnswer: 1,
       },
       {
@@ -392,18 +392,18 @@ const questions = [
         correctAnswer: 1,
       },
       {
-        question: "Kurš ir mans mīļākais gada laiks?",
-        options: ["rudens", "ziema", "pavasaris", "vasara"],
+        question: "Kas ir mans secret talent?",
+        options: ["akrobātika", "žonglēšana", "dziedāšana", "man nav"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
-        correctAnswer: 1,
+        question: "Kā es cilvēkiem izrādu savu mīlestību?",
+        options: ["dāvanu došana", "rakstu love notes", "physical touch", "quality time"],
+        correctAnswer: 2,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kuru TV šovu es varu skatīties uz repaet vez apnikšanas?",
+        options: ["", "Lucifer", "", "Bones"],
         correctAnswer: 1,
       },
       {
