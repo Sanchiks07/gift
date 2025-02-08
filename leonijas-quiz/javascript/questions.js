@@ -10,13 +10,13 @@ const questions = [
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kas bija pati pirmā dāvana, kuru tu man iedevi?",
+        options: ["Puķes", "Batman hotwheels", "Lego", "Jack & Jones hoodie"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Ko es mīlu tevī viss vairāk?",
+        options: ["Tavas stulbības", "Tavas acis", "Tavus muskuļus", "Tavu humoru"],
         correctAnswer: 1,
       },
       {
@@ -158,7 +158,7 @@ const questions = [
   },
 
   {
-    category: "future plans",
+    category: "future_plans",
     questions: [
       {
         question: "Cik bērnus es gribētu adoptēt?",
@@ -167,7 +167,7 @@ const questions = [
       },
       {
         question: "Kāda būs mūsu nākotnes māja?",
-        options: ["modern", "cottage", "cabin", "mansion"],
+        options: ["Modern", "Cottage", "Cabin", "Mansion"],
         correctAnswer: 2,
       },
       {
@@ -176,8 +176,8 @@ const questions = [
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kur es vēlos, lai mēs ceļojam vispirms?",
+        options: ["Grieķiju", "Bora Bora", "Havaju salām", "Spāniju"],
         correctAnswer: 1,
       },
       {
@@ -314,16 +314,16 @@ const questions = [
   },
 
   {
-    category: "about me",
+    category: "about_me",
     questions: [
       {
         question: "Kāda veida rotas es velku?",
-        options: ["sudraba", "zelta", "sudraba + reti zelta", "dimanta"],
+        options: ["Sudraba", "Zelta", "Sudraba + reti zelta", "Dimanta"],
         correctAnswer: 1,
       },
       {
         question: "Cik garus matus es vēlos izaudzēt?",
-        options: ["drīz atkal nogriezīšu", "līdz pleciem", "vairs nedomāju audzēt", "līdz dibenam"],
+        options: ["Drīz atkal nogriezīšu", "Līdz pleciem", "Vairs nedomāju audzēt", "Līdz dibenam"],
         correctAnswer: 1,
       },
       {
@@ -338,12 +338,12 @@ const questions = [
       },
       {
         question: "Kas ir mans bērnības sapnis, kuru es vēlos piepildīt līdz šai dienai?",
-        options: ["apceļot pasauli", "iemācīties dejot/dziedāt", "kļūt par slavenību", "iemācīties visas iespējamās valodas"],
+        options: ["Apceļot pasauli", "Iemācīties dejot/dziedāt", "Kļūt par slavenību", "Iemācīties visas iespējamās valodas"],
         correctAnswer: 1,
       },
       {
         question: "Kura ir mana mīļākā puķe?",
-        options: ["lavanda", "neļķes", "rozes", "saulespuķe"],
+        options: ["Lavanda", "Neļķes", "Rozes", "Saulespuķe"],
         correctAnswer: 2,
       },
       {
@@ -353,124 +353,124 @@ const questions = [
       },
       {
         question: "Kāda ir manas bērnības iesauka?",
-        options: ["bubulis", "saņuks", "princesīte", "saulesstariņš"],
+        options: ["Bubulis", "Saņuks", "Princesīte", "Saulesstariņš"],
         correctAnswer: 1,
       },
       {
         question: "Kas ir manas lielākās bailes?",
-        options: ["tumsa", "zirnekļi", "augstums", "man nav"],
+        options: ["Tumsa", "Zirnekļi", "Augstums", "Man nav"],
         correctAnswer: 1,
       },
       {
         question: "Kāds ir mans mīļākais komforta ēdiens?",
-        options: ["šokolāde", "saldējums", "medus kūka", "cepumi"],
+        options: ["Šokolāde", "Saldējums", "Medus kūka", "Cepumi"],
         correctAnswer: 1,
       },
       {
         question: "Kāda būtu mana pēdējā maltīte?",
-        options: ["saldējums", "šokolādes kūka", "omes taisīta maltīte", ""],
+        options: ["Saldējums", "Šokolādes kūka", "Omes taisīta maltīte", "Nekas"],
         correctAnswer: 1,
       },
       {
         question: "Ja es varētu kaut ko mainīt savā izskatā, kas tas būtu?",
-        options: ["seju", "vēderu", "rokas", "visu izņemot acis"],
+        options: ["Seju", "Vēderu", "Rokas", "Visu izņemot acis"],
         correctAnswer: 1,
       },
       {
         question: "Kura ir mana mīļākā šokolāde?",
-        options: ["tumšā", "baltā", "piena", "all of the above"],
+        options: ["Tumšā", "Baltā", "Piena", "All of the above"],
         correctAnswer: 1,
       },
       {
         question: "Vai es gribu adoptēt bērnus vai dzemdēt?",
-        options: ["dzemdēt", "adoptēt", "abus", "es negribu bērnus"],
-        correctAnswer: 2,
+        options: ["Dzemdēt", "Adoptēt", "Abus", "Es negribu bērnus"],
+        correctAnswer: 1,
       },
       {
         question: "Kura ir mana mīļākā grāmata(triloģija, duoloģija)?",
-        options: ["Butcher & Blackbird", "Fifty Shades of Gray", "A Good Girl's Guide To Murder", "Kepler62"],
+        options: ['"Butcher & Blackbird"', '"Fifty Shades of Gray"', '"A Good Girl\'s Guide To Murder"', '"Kepler62"'],
         correctAnswer: 1,
       },
       {
         question: "Kas ir mans secret talent?",
-        options: ["akrobātika", "žonglēšana", "dziedāšana", "man nav"],
+        options: ["Akrobātika", "Žonglēšana", "Dziedāšana", "Man nav"],
         correctAnswer: 1,
       },
       {
         question: "Kā es cilvēkiem izrādu savu mīlestību?",
-        options: ["dāvanu došana", "rakstu love notes", "physical touch", "quality time"],
+        options: ["Dāvanu došana", "Rakstu love notes", "Physical touch", "Quality time"],
         correctAnswer: 2,
       },
       {
         question: "Kuru TV šovu es varu skatīties uz repaet vez apnikšanas?",
-        options: ["", "Lucifer", "", "Bones"],
+        options: ["9-1-1", "Lucifer", "Hawaii Five-0", "Bones"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Kura ir mana zodiaka zīme?",
+        options: ["Strēlnieks", "Vēzis", "Vērsis", "Auns"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kurš ir mans mīļākais mūzikas žanrs?",
+        options: ["Country", "Pop", "Rap", "Visi žanri"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Vai man ir kāda no šīm alerģijām?",
+        options: ["Puķes", "Smaržas", "Medus", "Man nav alerģiju"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kurš ir mans mīļākai motociklu zīmols?",
+        options: ["Honda", "Yamaha", "BMW", "Kawasaki"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Kura ir mana mīļākā dziesma?",
+        options: ['"El Mismo Sol"', '"Man Areas"', '"Shut Up and Dance"', '"Everlasting Dance"'],
+        correctAnswer: 2,
+      },
+      {
+        question: "Kurš ir mans mīļākais sporta veids?",
+        options: ["Bokss", "Volejbols", "Hokejs", "Motokross"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kas man viss vairāk nepatīk par jaunā gada svinēšanu?",
+        options: ["Salūts", "Cilvēki", "Aukstums", "Nekas, man patīk viss"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kurš ir mans mīļākais mācību priekšmets?",
+        options: ["Vācu valoda", "Matemātika", "Angļu valoda", "Sociālās zinības"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Kurš ir mans labākais draugs?",
+        options: ["Keita", "Robčiks", "Sintija", "Lenlands"],
+        correctAnswer: 3,
+      },
+      {
+        question: "Ko es kolekcionēju?",
+        options: ["Hotwheels", "Lāčus", "Grāmatas", "Kaktusus"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Vai es esmu agrais putns vai nakts pūce?",
+        options: ["Abi", "Nakts pūce", "Agrais putns", "Dienas kaķis"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
-        correctAnswer: 1,
-      },
-      {
-        question: "?",
-        options: ["", "", "", ""],
-        correctAnswer: 1,
-      },
-      {
-        question: "?",
-        options: ["", "", "", ""],
-        correctAnswer: 1,
-      },
-      {
-        question: "?",
-        options: ["", "", "", ""],
-        correctAnswer: 1,
-      },
-      {
-        question: "?",
-        options: ["", "", "", ""],
-        correctAnswer: 1,
-      },
-      {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Cik man ir brāļu?",
+        options: ["1", "3", "4", "2"],
         correctAnswer: 1,
       },
     ],
   },
 
   {
-    category: "jokes & secrets",
+    category: "jokes&secrets",
     questions: [
       {
         question: "Mother will be happy about this...",
@@ -484,7 +484,7 @@ const questions = [
       },
       {
         question: "birds AKA ...",
-        options: ["birbs", "", "boobies", ""],
+        options: ["birbs", "lapsas", "boobies", "birdies"],
         correctAnswer: 2,
       },
       {
