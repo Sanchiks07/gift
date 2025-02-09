@@ -20,8 +20,8 @@ const questions = [
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kas ir tava mīļākā atmiņa par mums kopā?",
+        options: ["Pirmā reize, kad atbrauci pie manis", "Pirmais randiņš", "Pirmais skūpsts", "Pirmais apskāviens"],
         correctAnswer: 1,
       },
       {
