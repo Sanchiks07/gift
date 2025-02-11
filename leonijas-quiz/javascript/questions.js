@@ -2,7 +2,7 @@
 
 const questions = [
   {
-    category: "relationship",
+    category: "attiecibas",
     questions: [
       {
         question: "Kad mēs sagājām kopā?",
@@ -25,43 +25,43 @@ const questions = [
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kāds ir mans nickname (kā tu mani sauc)?",
+        options: ["Princesīte", "My Queen", "Honey", "All of the above"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Kurā platformā tev ir viss vairāk neatbildētu ziņu no manis?",
+        options: ["Snapchat", "TikTok", "Whatsapp", "Instagram"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kura ir mūsu dziesma?",
+        options: ['"Poker Face"', '"you are my sunshine"', '"You Give Love A Bad Name"', '"Shut Up and Dance"'],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kas tev patīk bet man nē?",
+        options: ["Kalni", "Pļavas", "Meži", "Pludmales"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Par ko tu zini visu, bet es neko?",
+        options: ["Pokémon", "Paranormālām lietām", "Programmēšanu", "Ēdienu"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Vai mēs uzspiedīsim mūsu bērniem jebkuru no reliģijām?",
+        options: ["Jā", "Nē", "Varbūt", "Es nezinu"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Cik mums ir bērnu?",
+        options: ["0", "1", "3", "5"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
-        correctAnswer: 1,
-      },
-      {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kas ir mūsu lielākās grūtības?",
+        options: ["Mums nav nekādu grūtību", "Kopā laika pavadīšana", "Nenopietnība", "Nerunāšana"],
         correctAnswer: 1,
       },
       {
@@ -158,7 +158,7 @@ const questions = [
   },
 
   {
-    category: "future_plans",
+    category: "nakotnes_plani",
     questions: [
       {
         question: "Cik bērnus es gribētu adoptēt?",
@@ -171,12 +171,12 @@ const questions = [
         correctAnswer: 2,
       },
       {
-        question: "Cik mājdzīvnieki mums būs?",
+        question: "Cik mājdzīvnieku mums būs?",
         options: ["4 kaķi", "2 suņi", "2 kaķi + 4 suņi", "5 kaķi + 3 suņi"],
         correctAnswer: 1,
       },
       {
-        question: "Kur es vēlos, lai mēs ceļojam vispirms?",
+        question: "Kur es vēlos, lai mēs aizceļojam vispirms?",
         options: ["Grieķiju", "Bora Bora", "Havaju salām", "Spāniju"],
         correctAnswer: 1,
       },
@@ -314,7 +314,7 @@ const questions = [
   },
 
   {
-    category: "about_me",
+    category: "par_man",
     questions: [
       {
         question: "Kāda veida rotas es velku?",
@@ -470,7 +470,7 @@ const questions = [
   },
 
   {
-    category: "jokes&secrets",
+    category: "random",
     questions: [
       {
         question: "Mother will be happy about this...",
@@ -498,8 +498,8 @@ const questions = [
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kāda veida filmas mēs pārsvarā skatījāmie vasarā?",
+        options: ["Komēdijas", "Šausmenes", "Detektīvu", "Romantikas"],
         correctAnswer: 1,
       },
       {
