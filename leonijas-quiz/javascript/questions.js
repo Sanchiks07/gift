@@ -65,18 +65,18 @@ const questions = [
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Cik ilgi mēs jau esam kopā?",
+        options: ["1 gadu 3 mēnešus", "1 gadu 4 mēnešus", "1 gadu 6 mēnešus", "2 gadus"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kāds būtu mūsu perfektais randiņš?",
+        options: ["Vienkārša sēdēšana mājās", "Jebkas ko tu izplāno", "Car/Motorcycle date", "Double date"],
         correctAnswer: 1,
       },
       {
-        question: "?",
-        options: ["", "", "", ""],
+        question: "Kādu randiņu es vēlos ar tevi ātrāk viss vairāk?",
+        options: ["Picnic date", "Lego date", "Cooking date", "Movie date"],
         correctAnswer: 1,
       },
       {
