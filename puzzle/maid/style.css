@@ -94,3 +94,7 @@ button {
     left: 20px;
 }
 
+button:hover {
+    background-color: #ff8ba0;
+    color: white;
+}
