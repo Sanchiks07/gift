@@ -4,41 +4,50 @@ body {
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
+    background-image: url("../background.png");
+    background-repeat: no-repeat;
+    background-size: 2700px;
 }
 
 /* cards */
 .cards-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     justify-content: space-around;
-    gap: 20px;
-    padding: 20px;
-    max-width: 1000px;
+    gap: 30px;
+    padding: 40px;
+    max-width: 2200px;
     width: 100%;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 300px;
-    border-radius: 10px;
+    width: 500px;
+    border-radius: 15px;
     overflow: hidden;
     text-align: center;
 }
 
 .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
     transition: 0.3s ease-in-out;
 }
 
 .card img {
     width: 100%;
     height: auto;
-    border-bottom: 2px solid #f06292;
+    display: block;
 }
 
 .container {
-    padding: 16px;
+    padding: 24px;
+    font-size: 32px;
+    color: white;
+    background-color: #db335a;
+    font-family: 'Dancing Script', cursive;
 }
 
 /* atpakaļ poga */
@@ -48,7 +57,7 @@ body {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     position: absolute;
     top: 20px;
@@ -57,5 +66,21 @@ body {
 
 .back:hover {
     background-color: #ff8ba0;
+    color: white;
+}
+
+/* play poga */
+button {
+    background-color: #a11032;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c51740;
     color: white;
 }
