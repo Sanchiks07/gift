@@ -3,10 +3,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    flex-direction: column;
+    flex-direction: row;
     background-image: url("../background.png");
     background-repeat: no-repeat;
-    background-size: 2700px;
+    background-size: cover;
 }
 
 /* cards */
@@ -17,7 +17,7 @@ body {
     justify-content: space-around;
     gap: 30px;
     padding: 40px;
-    max-width: 2200px;
+    max-width: 100%;
     width: 100%;
 }
 
